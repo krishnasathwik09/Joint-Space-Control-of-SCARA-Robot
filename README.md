@@ -8,8 +8,6 @@ https://user-images.githubusercontent.com/93411202/179910341-f97994de-869e-4c42-
 
 
 
-
-
 ## Description
 This package simulates a joint space position control for a 3-DOF revolute-revolute- prismatic (RRP) robot manipulator in **Gazebo**.
 
@@ -50,7 +48,7 @@ This repository has been developed and tested in Ubuntu 16.04 and ROS Kinetic.
 
 ![image](Demo/P1_side.jpg)
 
-• First, download the ROS package for the RRP robot manipulator from the this repositry, and place it under your ROS workspace:
+• First, download the ROS package for the RRP robot manipulator(rrp_robot) from the this repositry, and place it under your ROS workspace:
 
 `cd ~/rbe500_ros/src`
 
@@ -68,6 +66,9 @@ This repository has been developed and tested in Ubuntu 16.04 and ROS Kinetic.
 
 
 ## Setup and Run
+
+Download the Controller ROS package (rbe500_project) from this repositry, and place it under your ROS workspace
+
 i) Open a terminal and launch the RRP robot manipulator in Gazebo before running the scripts.
 
   `roslaunch rrp_gazebo gazebo.launch`
