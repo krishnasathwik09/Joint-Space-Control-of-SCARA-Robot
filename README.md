@@ -1,6 +1,10 @@
 # Joint-Space-Control-of-SCARA-Robot
 
 
+https://user-images.githubusercontent.com/93411202/179910341-f97994de-869e-4c42-b80f-7f9699a0cb7e.mp4
+
+
+
 
 
 
@@ -43,6 +47,8 @@ d.Task Completion under 1 min
 This repository has been developed and tested in Ubuntu 16.04 and ROS Kinetic.
 
 #### Set up the RRP robot in Gazebo
+
+![image](Demo/P1_side.jpg)
 
 • First, download the ROS package for the RRP robot manipulator from the this repositry, and place it under your ROS workspace:
 
